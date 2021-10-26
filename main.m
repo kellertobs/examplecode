@@ -128,7 +128,7 @@ if restart
     step = step+1;
 end
 
-update; output;
+update; output; % comment to test
 
 % physical time stepping loop
 while time <= tend && step <= M
